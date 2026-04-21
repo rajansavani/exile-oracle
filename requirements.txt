@@ -1,0 +1,21 @@
+# web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# data ingestion / poe wiki scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+tqdm==4.67.1
+
+# LLMs + embeddings + vector store
+openai==1.57.0
+pinecone==5.4.2
+tiktoken==0.8.0
+
+# utilities and testing
+python-dotenv==1.0.1
+pytest==8.3.4
+httpx==0.28.1
