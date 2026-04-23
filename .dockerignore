@@ -1,0 +1,42 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# virtual environments
+venv/
+.venv/
+env/
+
+# local env
+.env
+.env.local
+
+# non src folders
+data/
+scripts/
+tests/
+
+# VCS
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# docs
+README.md
+LICENSE
+
+# docker itself
+Dockerfile
+.dockerignore
+
+# github actions config
+.github/
